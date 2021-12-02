@@ -1,0 +1,993 @@
+@media (max-width: 1199px) {
+    body main .swiper-container .swiper-wrapper .slide a{
+      top: 500px;
+    }
+
+    body header .container .base_navbar ul li a{
+      padding: 0;
+    }
+
+    body header .container .base_navbar ul li ul{
+      top: 42px;
+    }
+
+    body header .container .base_navbar > ul > li:hover > a{
+      border: none;
+    }
+
+    body main section .container .post{
+      width: calc(50% - 10px);
+      margin: 0 5px 30px 5px;
+    }
+
+    body header .container > div:first-child {
+      padding-left: 140px;
+    }
+
+    body header .container .search{
+      text-align: right;
+      padding-right: 155px;
+    }
+
+    body main .home_title{
+      min-height: 120px;
+    }
+
+        body main .home_title .container .col-xs-12 h1{
+          font-size: 48px;
+          padding: 47px 0 47px 0;
+        }
+
+    body header .container .base_navbar .searching form{
+        padding: 2px 130px 1px 130px;
+        margin-top: 0;
+    }
+
+        body header .container .base_navbar .searching form:hover{
+            border: none;
+            padding: 2px 130px 1px 130px;
+        }
+
+        body header .container .base_navbar .searching form input{
+            font-size: 20px;
+        }
+
+    body header .container .base_navbar ul li{
+      padding: 10px 0 15px 0;
+    }
+
+        body header .container .base_navbar ul li a:hover{
+          border: none;
+        }
+
+    body main .events .container .event{
+      margin: 0 0 30px 0;
+      padding: 0;
+    }
+
+    body main .reflections .container .reflection .message,
+    body main .news .container .new .message{
+      padding: 0 30px;
+    }
+
+    body main section .container .all_posts, body main section .container .all_events {
+      margin: 10px 0 60px 0;
+      text-align: center;
+    }
+
+    body footer .pre_footer div .contact,
+    body footer .pre_footer div .links,
+    body footer .pre_footer div .kbs {
+      padding: 0 20px 0 20px;
+      margin: 20px 0 10px 0;
+      text-align: center;
+    }
+
+    body main .events .container .event {
+      background-color: #eee8df;
+      height: 170px;
+      width: calc(100% - 10px);
+      margin: 0 5px 10px 5px;
+      padding: 0;
+    }
+
+
+/* ------------- ONE POST -------------- */
+    body main .one_post .container .post_header .picture{
+        max-height: 400px;
+        margin: 0 0 60px 0;
+    }
+
+        body main .one_post .container .post_header .picture img{
+          max-height: 400px;
+        }
+
+    body main .one_post .container .popular_posts > a {
+      font-size: 15px;
+    }
+
+    body main .one_post .container .comments .comment .picture{
+      height: 135px;
+      margin: 8px 0 0 0;
+    }
+
+    body main .one_post .container .comments .comment .message {
+      padding-top: 10px;
+    }
+
+        body main .one_post .container .comments .comment .message .text p {
+            font-size: 17px;
+            line-height: 19px;
+        }
+
+        body main .one_post .container .comments .comment .message .reply {
+          padding: 20px 0 0 0;
+        }
+
+
+/*-----------------ALL POSTS---------------------*/
+    body main .title .container .psalm{
+      display: none;
+    }
+
+    body main .all_posts .container .popular_posts > a{
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    body footer .pre_footer div .kbs p {
+      margin: 10px auto 0 auto;
+      width: 80%;
+    }
+
+    body main .all_posts .container .posts .post .picture {
+      height: 320px;
+      background-size: cover;
+    }
+
+    body main .all_posts .container .posts .post .text .info small{
+      padding: 0 10px;
+    }
+
+        body main .all_posts .container .posts .post .text .info small:first-child{
+          padding: 0 5px 0 0;
+        }
+
+    body main .all_posts .container .posts .post .text h1{
+      margin-top: 0;
+    }
+
+
+
+/*-----------------ALL EVENTS---------------------*/
+    body main .all_events .container .events .event .picture {
+        padding: 0;
+        height: 271px;
+    }
+
+    body main .all_events .container .events .event .text small{
+      padding: 0 15px;
+    }
+
+        body main .all_events .container .events .event .text small:first-child{
+          margin: 0;
+        }
+
+/*----------------------ONE EVENT------------------------------*/
+    body main .one_event .container .recent_news{
+      margin-top: 25px;
+    }
+
+/*-------------------------PARISH OFFICE------------------------------------*/
+    body main .parish_office .container .map{
+      height: 448px;
+    }
+
+
+/*------------------COMMUNITIES--------------------------*/
+    body main .phone_book .container .number_table table thead tr td,
+    body main .communities .container table thead tr td{
+        font-size: 16px;
+    }
+
+    body main .phone_book .container .number_table table tbody tr td,
+    body main .communities .container table tbody tr td{
+        font-size: 14px;
+    }
+
+        body main .phone_book .container .number_table table tbody tr td:first-child,
+        body main .communities .container table tbody tr td:first-child{
+            font-size: 16px;
+        }
+
+    body main .communities .menu ul li a{
+        font-size: 1px;
+        padding: 5px 12px;
+    }
+/*-------------------------INFORMATIONS--------------------------------*/
+    body main .informations .container .parishes .parish h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    body main .informations .container .parishes .parish div .info {
+        padding: 8px 10px;
+    }
+
+        body main .informations .container .parishes .parish div .info p,
+        body main .informations .container .parishes .parish div .info p a{
+            font-size: 15px;
+            line-height: 17px;
+        }
+
+/*-----------------------CALENDAR------------------------------*/
+    body main .calendar .container div .calendar_widget{
+        width: 50%;
+        background-color: #584338;
+        margin: 0 auto;
+        height: 500px;
+    }
+
+
+    body main .phone_book .container .number_table table thead tr td{
+        padding: 4px 40px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    body header .container .base_navbar .searching form {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    body header .container .base_navbar ul li:hover a{
+      border: none;
+    }
+
+    body header .container > div:first-child {
+      padding-left: 30px;
+    }
+
+    body header .container .search{
+      text-align: right;
+      padding-right: 30px;
+    }
+
+    body main .home_title .container .col-xs-12 h1{
+      font-size: 38px;
+    }
+
+    body main .events .event{
+      background-color: #eee8df;
+      min-height: 170px;
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+
+    body main .swiper-container .swiper-wrapper .slide .post_title h1{
+      font-size: 75px;
+      line-height: 75px;
+    }
+
+    body footer .pre_footer div .contact,
+    body footer .pre_footer div .links,
+    body footer .pre_footer div .kbs{
+      margin: 10px 0;
+    }
+
+    body main .news .container .new .message{
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    body main .news .swiper-container .swiper-wrapper .swiper-slide .new .message p,
+    body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection .message p{
+      font-size: 22px;
+      line-height: 25px;
+    }
+
+    body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection h1,
+    body main .news .swiper-container  .swiper-wrapper .swiper-slide .new h1{
+      font-size: 40px;
+    }
+
+    body main .news .swiper-container .swiper-wrapper .swiper-slide .new .message small,
+    body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection .message small{
+      font-size: 17px;
+      line-height: 22px;
+    }
+
+    body footer .pre_footer div .contact,
+    body footer .pre_footer div .links,
+    body footer .pre_footer div .kbs {
+      padding: 0 0 10px 0;
+      margin: 20px 80px 10px 80px;
+      text-align: center;
+    }
+
+/* ------------- ONE POST -------------- */
+    body main .one_post .container .post_header .picture{
+        max-height: 350px;
+        margin: 0 0 60px 0;
+    }
+
+        body main .one_post .container .post_header .picture img{
+          max-height: 350px;
+        }
+
+    body main .one_post .container .post_header .info small:nth-of-type(2),
+    body main .one_post .container .post_header .info small:nth-of-type(4){
+      display: none;
+    }
+
+    body main .one_post .container .comments .comment .picture picture img {
+      max-height: 100px;
+      max-width: 100px;
+    }
+
+    body main .one_post .container .comments .comment .message .text small{
+      line-height: 28px;
+    }
+
+    body main .one_post .container {
+      padding: 45px;
+    }
+
+        body main .one_post .container .info small {
+            padding: 0 15px;
+        }
+
+            body main .one_post .container .info small:first-child {
+                padding: 0 15px 0 0;
+            }
+
+        body main .one_post .container .post_header .picture{
+            margin: 0 0 35px 0;
+        }
+
+        body main .one_post .container .post_text blockquote,
+        body main .one_event .container .event_text blockquote {
+          margin: 20px 0 35px 60px;
+        }
+
+        body main .one_post .container .comments .comment .picture {
+          height: 110px;
+          margin-top: 20px;
+        }
+
+        body main .one_post .container .comments .comment .message .text h3 {
+          font-size: 22px;
+          line-height: 22px;
+        }
+
+        body main .one_post .container .comments .comment .message .text p {
+          font-size: 15px;
+          line-height: 16px;
+        }
+
+        body main .one_post .container .comments .comment .picture {
+          margin: 40px 0 0 0;
+        }
+
+        body main .one_post .container,
+        body main .one_event .container,
+        body main .parish_office .container,
+        body main .contact_form .container,
+        body main .phone_book .container,
+        body main .communities .container,
+        body main .informations .container,
+        body main .parish_history .container,
+        body main .mass_rules .container,
+        body main .calendar .container,
+        body main .parish_notices .container{
+          padding: 50px;
+        }
+
+/*-----------------ALL POSTS---------------------*/
+    body main .all_events .container .events .event{
+      min-height: 210px;
+    }
+
+    body main .all_posts .container .categories{
+      display: none;
+    }
+
+    body main .all_posts .container {
+      padding: 50px;
+    }
+
+    body main .all_posts .container .posts .post:last-child {
+      margin: 0;
+    }
+
+    body main .all_posts .container .posts .post .text p {
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    body main .all_posts .container .posts .post .text h1{
+      margin: 0 0 14px 0;
+    }
+
+    body main .all_posts .container .posts .post .text .info small{
+      padding: 0 10px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+        body main .all_posts .container .posts .post .text .info small:first-child{
+          padding: 0 10px 0 0;
+        }
+
+
+/*-----------------ALL EVENTS---------------------*/
+    body main .all_events .container .events .event{
+      margin: 0 0 25px 0;
+    }
+
+    body main .all_events .container{
+      padding: 50px;
+    }
+
+    body main .all_events .container .events .event .picture {
+      padding: 0;
+      height: 208px;
+    }
+
+    body main .all_events .container .events .event .text{
+      padding: 10px 20px;
+    }
+
+        body main .all_events .container .events .event .text h1 a{
+          font-size: 24px;
+          line-height: 16px;
+        }
+
+        body main .all_events .container .events .event .text p{
+          font-size: 16px;
+          line-height: 16px;
+        }
+
+
+/*---------------------ONE EVENT------------------------*/
+    body main .one_post .container .popular_posts,
+    body main .all_events .container .popular_posts,
+    body main .one_post .container .popular_posts,
+    body main .all_posts .container .popular_posts,
+    body main .one_event .container .popular_posts,
+    body main .one_event .container .recent_news,
+    body main .phone_book .container .recent_news,
+    body main .parish_notices .container .popular_posts{
+      display: none;
+    }
+
+
+/*--------------------------PARISH OFFICE------------------------------------*/
+    body main .parish_office .container .map{
+      height: 329px;
+    }
+
+
+/*------------------PHONE BOOK--------------------------*/
+    body main .phone_book .container .number_table table thead tr td{
+        padding: 6px 40px;
+    }
+
+/*-------------------------INFORMATIONS--------------------------------*/
+    body main .informations .container .parishes .parish{
+        width: 100%;
+    }
+
+        body main .informations .container .parishes .parish:first-of-type{
+            width: 100%;
+        }
+
+            body main .informations .container .parishes .parish div .info p,
+            body main .informations .container .parishes .parish div .info p a {
+                font-size: 17px;
+                line-height: 20px;
+            }
+
+    body main .informations .container .parishes .parish h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    body header .container .base_navbar .searching form {
+        padding: 0 15px;
+        margin-top: 0;
+    }
+
+        body header .container .base_navbar .searching form:hover{
+            padding: 0 15px;
+        }
+
+    body main .reflections{
+      min-height: 240px;
+    }
+
+    body main .reflections .container .reflection .message,
+    body main .news .container .new .message{
+      padding: 0;
+    }
+
+        body main .reflections .container .reflection .message p,
+        body main .news .container .new .message p{
+          font-size: 20px;
+          line-height: 24px;
+        }
+
+        body main .reflections .container .reflection h1,
+        body main .news .container .new h1{
+          padding: 30px 0 25px 0;
+        }
+
+    body main .swiper-container .swiper-wrapper .slide a{
+      top: 550px;
+      left: 40px;
+    }
+
+    body main section .container .post{
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
+
+    body header .container .base_navbar{
+        padding: 0;
+        width: 100%;
+        background-color: #f9f3ea;
+    }
+
+        body header .container .base_navbar ul{
+            position: absolute;
+            display: none;
+            width: 100%;
+            background-color: #f9f3ea;
+            z-index: 99999;
+            border: none;
+        }
+
+            body header .container .base_navbar ul li{
+                display: block;
+                text-align: center;
+                border-bottom: 1px solid #e0d5c2;
+                margin: 0 auto;
+                width: 80%;
+            }
+
+                body header .container .base_navbar ul li:after{
+                    content: none;
+                }
+
+                body header .container .base_navbar ul li:last-of-type{
+                    border-bottom: none;
+                }
+
+                body header .container .base_navbar ul li ul{
+                    display: none;
+                    max-height: 500px;
+                    position: static;
+                    text-align: center;
+                    transition-property: none;
+                }
+
+                    body header .container .base_navbar ul li:hover ul{
+                        display: none;
+                        border: none;
+                        padding: 0;
+                    }
+
+                        body header .container .base_navbar ul li ul li{
+                            text-align: center;
+                            border-bottom: none;
+                        }
+
+                            body header .container .base_navbar ul li ul li a{
+                                font-size: 15px;
+                            }
+
+                            body header .container .base_navbar ul li ul li:after{
+                                content: none;
+                            }
+
+    body header .container .menu{
+      display: inline-block;
+      float: right;
+    }
+
+    body main section .container .section_title h1{
+      font-size: 50px;
+      padding: 15px 0 19px 0;
+    }
+
+    body header .container .search{
+      text-align: center;
+      display: inline-block;
+      float: left;
+    }
+
+        body header .container .search .icon{
+            display: inline-block;
+        }
+
+            body header .container .search .icon a i{
+                font-size: 53px;
+                padding: 35px 0 31px 0;
+                transition: color 0.5s ease;
+                -moz-transition: color 0.5s ease;
+                -webkit-transition: color 0.5s ease;
+                -o-transition: color 0.5s ease;
+            }
+
+                body header .container .search .icon a i:hover{
+                    border: none;
+                    color: #a82626;
+                    padding: 35px 0 31px 0;
+                }
+
+    body main .home_title{
+      min-height: 100px;
+    }
+
+        body main .home_title .container .col-xs-12 h1{
+          font-size: 26px;
+          padding: 34px 0 33px 0;
+        }
+
+    body main .swiper-container .swiper-wrapper .slide .post_title h1{
+      font-size: 55px;
+      line-height: 55px;
+    }
+
+    body footer .main_footer{
+      text-align: center;
+    }
+
+        body footer .main_footer .created_by{
+          border: none;
+        }
+
+            body footer .main_footer .created_by span{
+              font-size: 15px;
+              padding: 0 6px 0 6px;
+            }
+
+                body footer .main_footer .created_by span:first-child{
+                  padding: 0 6px 0 6px;
+                }
+
+
+
+/* ------------- ONE POST -------------- */
+    body main .one_post .container .post_header .picture{
+        max-height: 280px;
+        margin: 0 0 60px 0;
+    }
+
+        body main .one_post .container .post_header .picture img{
+          max-height: 280px;
+        }
+
+    body main .one_post .container .comments .comment {
+        padding: 0;
+    }
+
+    body main .one_post .container .post_header .picture {
+      margin: 0 0 25px 0;
+      max-height: 460px;
+    }
+
+    body main .one_post .container .post_header .picture img {
+      max-height: 460px;
+      background-size: cover;
+      width: 100%;
+    }
+
+    body main .title .container .topic{
+      text-align: center;
+      padding-left: 0;
+      padding-bottom: 34px;
+    }
+
+    body main .one_post .container,
+    body main .one_event .container,
+    body main .parish_office .container,
+    body main .contact_form .container,
+    body main .phone_book .container,
+    body main .communities .container,
+    body main .informations .container,
+    body main .parish_history .container,
+    body main .mass_rules .container,
+    body main .calendar .container,
+    body main .parish_notices .container
+    {
+        padding: 20px;
+    }
+
+        body main .one_post .container .post_header h1,
+        body main .one_event .container .event_header h1{
+          text-align: center;
+          padding: 22px 0 15px 0;
+        }
+
+        body main .one_post .container .post_header .picture,
+        body main .one_event .container .event_header .picture {
+          margin: 0 0 25px 0;
+        }
+
+        body main .one_post .container .info,
+        body main .one_event .container .info{
+          text-align: center;
+        }
+
+            body main .one_post .container .info small {
+              padding: 0 5px;
+              border-left: 1px solid #dfd7c9;
+              font-family: 'PT Sans Narrow';
+              font-size: 13px;
+              font-weight: normal;
+              line-height: 34px;
+              color: #88786f;
+              white-space: nowrap;
+            }
+
+            body main .one_post .container .info small:first-child {
+              padding: 0 5px 0 0;
+            }
+
+        body main .one_post .container .comments .comment .picture {
+          height: 110px;
+          margin-top: 38px;
+        }
+
+            body main .one_post .container .comments .comment .picture picture img{
+              max-width: 110px;
+              max-height: 110px;
+            }
+
+/*-------------------ALL POSTS---------------------*/
+    body main .title .container .topic {
+      text-align: center;
+      padding-left: 0;
+      padding-bottom: 34px;
+    }
+
+    body main .all_posts .container {
+        padding: 35px 15px;
+    }
+
+    body main .all_posts .container .posts .post .text .info small:nth-of-type(2),
+    body main .all_posts .container .posts .post .text .info small:nth-of-type(4){
+      display: none;
+    }
+
+    body main .all_posts .container .posts .post .picture {
+      height: 290px;
+      background-size: cover;
+    }
+
+/*-----------------ALL EVENTS---------------------*/
+    body main .all_events .container .events .event .text{
+      padding: 25px 20px;
+    }
+
+/*---------------------ONE EVENT----------------------------*/
+    body main .one_event .container .info,
+    body main .one_post .container .info{
+      padding: 0 0 10px 0;
+    }
+
+/*--------------------------PARISH OFFICE------------------------------------*/
+    body main .parish_office .container .map{
+      height: 210px;
+    }
+
+
+/*------------------PHONE BOOK--------------------------*/
+
+    body main .phone_book .container .number_table table thead tr td{
+        padding: 6px 20px;
+    }
+
+
+/*------------------COMMUNITIES--------------------------*/
+    body main .communities .container{
+        padding: 8px;
+    }
+
+        body main .communities .container table thead tr td{
+            font-size: 14px;
+        }
+
+        body main .communities .container table tbody tr td{
+            padding: 6px 2px;
+            font-size: 12px;
+        }
+
+            body main .communities .container table tbody tr td:first-child{
+                font-size: 14px;
+            }
+
+            body main .phone_book .container .number_table table tbody tr td a,
+            body main .communities .container table tbody tr td a{
+                font-size: 12px;
+            }
+
+    body main .communities .menu ul{
+        margin: 30px 0;
+    }
+
+        body main .communities .menu ul li a{
+            font-size: 15px;
+            padding: 5px 8px;
+        }
+
+}
+
+@media (max-width: 549px) {
+    body header .container .base_navbar .searching form {
+        padding: 0 80px;
+        margin-top: 0;
+    }
+
+    body main .swiper-container .swiper-wrapper .slide a{
+      top: 600px;
+    }
+
+    body main .home_title{
+      min-height: 100px;
+    }
+
+        body main .home_title .container div h1{
+          font-size: 24px;
+        }
+
+    body header .container .col-xs-6.col-sm-3{
+      text-align: center;
+    }
+
+    body header .container .page_logo{
+      text-align: center;
+      padding: 15px;
+    }
+
+    body header .container .search{
+      text-align: center;
+      padding: 22px 0 31px 0;
+    }
+
+        body header .container .search .icon a i,
+        body header .container .search .icon a i:hover{
+            padding: 14px 0 0 0;
+        }
+
+    body main .events{
+      margin: 0 0 20px 0;
+    }
+
+        body main .events .container .event .message a h1{
+          font-size: 23px;
+          line-height: 23px;
+        }
+
+        body main .events .container .event  .message p{
+          padding: 4px 0 0 0;
+          line-height: 15px;
+          font-size: 15px;
+        }
+
+    body main .reflections{
+      min-height: 240px;
+    }
+
+        body main .reflections .container .reflection .message
+        {
+          padding: 0;
+        }
+
+            body main .reflections .container .reflection .message p,
+            body main .news .container .new .message p{
+              font-size: 18px;
+              line-height: 20px;
+            }
+
+    body footer .main_footer .created_by{
+      padding-bottom: 0;
+    }
+
+
+    body main section .container .all_posts,
+    body main section .container .all_events {
+        margin: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    body main .news .swiper-container .swiper-wrapper .swiper-slide .new .message p,
+    body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection .message p {
+      font-size: 19px;
+      line-height: 19px;
+    }
+
+    body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection h1,
+    body main .news .swiper-container .swiper-wrapper .swiper-slide .new h1 {
+      font-size: 34px;
+    }
+
+    body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection {
+      padding: 10px 0;
+    }
+
+
+
+/* ------------- ONE POST -------------- */
+    body main .one_post .container .post_header .picture{
+        max-height: 220px;
+        margin: 0 0 25px 0;
+    }
+
+        body main .one_post .container .post_header .picture img{
+          max-height: 220px;
+        }
+
+    body main .one_post .container .post_header{
+      text-align: center;
+    }
+
+    body main .one_post .container .comments .comment .picture{
+      display: none;
+    }
+
+    body main .one_post .container,
+    body main .one_event .container,
+    body main .parish_office .container,
+    body main .contact_form .container,
+    body main .phone_book .container,
+    body main .communities .container,
+    body main .informations .container,
+    body main .parish_history .container,
+    body main .mass_rules .container,
+    body main .calendar .container,
+    body main .parish_notices .container{
+        padding: 10px;
+    }
+
+    body main .one_post .container .comments .comment .message .reply {
+      padding: 25px 0 10px 0;
+      text-align: center;
+    }
+
+        body main .one_post .container .comments .comment .message .reply a{
+          padding: 7px 40px;
+        }
+
+/*-------------------ALL POSTS---------------------*/
+    body main .all_posts .container .posts .post .picture {
+      height: 270px;
+      background-size: cover;
+    }
+
+
+    body main .informations .container .parishes .parish h2{
+        font-size: 19px;
+    }
+
+        body main .informations .container .parishes .parish div .picture{
+            height: 270px;
+        }
+
+        body main .informations .container .parishes .parish div .info p,
+        body main .informations .container .parishes .parish div .info p a{
+            font-size: 15px;
+            line-height: 19px;
+        }
+
+/*---------------------COMMUNITIES---------------------*/
+    body main .communities .menu ul li{
+        line-height: 35px;
+    }
+
+}

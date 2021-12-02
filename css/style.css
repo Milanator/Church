@@ -1,0 +1,1877 @@
+body header .mini_menu .container .navigation ul li ul{
+    display: none;
+    background-color: #f9f3ea;
+}
+
+    body header .mini_menu .container .navigation ul li ul li{
+        border: none;
+        padding: 0;
+    }
+
+    body header .mini_menu .container .navigation ul li ul li a{
+        font-size: 18px;
+        font-weight: normal;
+        padding: 3px 0;
+        color: #3c3a3a;
+    }
+
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../fonts/Yellowtail-Regular.otf');
+}
+
+*{
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.fa{
+  display: inline-block;
+}
+
+    body{
+      background-color: #fcf9f4;
+    }
+
+        body header{
+          max-width: 100%;
+          background-color: #f9f3ea;
+          border-top: 5px solid #534741;
+        }
+
+            body header .container .page_logo{
+              padding: 15px;
+            }
+
+                body header .container .page_logo .logo{
+                    -ms-transform: rotate(-6deg); /* IE 9 */
+                    -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+                    transform: rotate(-6deg);
+                    display: inline-block;
+                    line-height: 28px;
+                }
+
+                body header .container .page_logo .logo a{
+                    text-decoration: none;
+                }
+
+                body header .container .page_logo .logo a h4,
+                body header .container .page_logo .logo a h1{
+                    font-family: 'Yellowtail';
+                    font-weight: normal;
+                    margin: 0;
+                }
+
+                body header .container .page_logo .logo a h4{
+                    font-size: 15px;
+                    color: #d3c7bc;
+                }
+
+                body header .container .page_logo .logo a h4:first-child{
+                    text-align: center;
+                }
+
+                body header .container .page_logo .logo a h4:last-child{
+                    text-align: right;
+                    padding-right: 35px;
+                }
+
+                body header .container .page_logo .logo a h1{
+                    font-size: 38px;
+                    color: #a82626;
+                }
+
+            body header .container .menu{
+              display: none;
+            }
+
+            body header .container .base_navbar{
+              display: inline-block;
+            }
+
+                body header .container .base_navbar ul{
+                  padding: 0;
+                  text-align: center;
+                }
+
+                    body header .container .base_navbar ul li{
+                      list-style: none;
+                      display: inline-block;
+                      padding: 47px 0;
+                    }
+
+                        body header .container .base_navbar ul li:hover{
+                          cursor: pointer;
+                        }
+
+                    body header .container .base_navbar ul li:hover ul {
+                      max-height: 500px;
+                      padding: 5px 20px;
+                      border-top: 3px solid;
+                      border-color: #a82626;
+                      color: #a82626;
+                      z-index: 10;
+                    }
+
+                        body header .container .base_navbar ul li:after{
+                          content: '●';
+                          font-size: 13px;
+                          color: #a39f9d;
+                          padding: 0 7px 0 7px;
+                          text-decoration: none;
+                          vertical-align: top;
+                        }
+
+                            body header .container .base_navbar ul li:last-of-type:after{
+                              content: none;
+                            }
+
+                    body header .container .base_navbar .searching{
+                        display: none;
+                        box-sizing: border-box;
+                    }
+
+                        body header .container .base_navbar .searching form{
+                            padding: 30px;
+                            margin-top: -5px;
+                        }
+
+                            body header .container .base_navbar .searching form:hover{
+                                border-top: 5px solid #a82626;
+                                padding: 25px 30px 30px 30px;
+                            }
+
+                            body header .container .base_navbar .searching form input{
+                                background-color: inherit;
+                                border-color: inherit;
+                                border: none;
+                                font-size: 30px;
+                                font-family: 'PT Sans Narrow';
+                                width: 100%;
+                                padding: 8px 14px;
+
+                            }
+
+                                body header .container .base_navbar .searching form input:focus{
+                                    outline: none;
+                                }
+
+                        body header .container .search{
+                          text-align: center;
+                          float: right;
+                          margin-top: -5px;
+                        }
+
+                        body header .container .search .icon a {
+                          display: inline-block;
+                        }
+
+                            body header .container .search .icon a i{
+                              color: #e0d5c2;
+                              font-size: 35px;
+                              padding: 45px 0 34px 0;
+                              transition: color 0.5s ease;
+                              -moz-transition: color 0.5s ease;
+                              -webkit-transition: color 0.5s ease;
+                              -o-transition: color 0.5s ease;
+                            }
+
+                                body header .container .search .icon a i:hover {
+                                  color: #a82626;
+                                  border-top: 5px solid #a82626;
+                                  padding: 40px 0 39px 0;
+                                }
+
+                        body header .container .base_navbar ul li ul{
+                          max-height: 0;
+                          position: absolute;
+                          background-color: white;
+                          background-color: #f9f3ea;
+                          top: 111px;
+                          overflow: hidden;
+                          padding: 0px 20px;
+                          border-color: #a82626;
+                          -moz-transition: all 0.5s ease;
+                          -webkit-transition: all 0.5s ease;
+                          -o-transition: all 0.5s ease;
+                          transition: all 0.5s ease;
+                        }
+
+                            body header .container .base_navbar ul li ul li{
+                              display: block;
+                              text-align: left;
+                              padding: 10px 0;
+                              border-bottom: 1px solid #eae4d9;
+                            }
+
+                                body header .container .base_navbar ul li ul li:last-child{
+                                  border: none;
+                                }
+
+                                body header .container .base_navbar ul li ul li::after{
+                                  content: none;
+                                }
+
+                                body header .container .base_navbar ul li ul li a{
+                                  padding: 0;
+                                }
+
+                                    body header .container .base_navbar ul li ul li a:hover{
+                                      border: none;
+                                      color: #a82626;
+                                    }
+
+
+                        body header .container .base_navbar ul li a{
+                          color: #6e6763;
+                          font-family: 'PT Sans Narrow';
+                          text-transform: uppercase;
+                          font-size: 20px;
+                          line-height: 20px;
+                          text-decoration: none;
+                          padding: 45px 0 46px 0;
+                        }
+
+                            body header .container .base_navbar > ul > li:hover  > a{
+                              border-top: 5px solid #a82626;
+                              color: #a82626;
+                              cursor: pointer;
+                            }
+
+            body header .mini_menu{
+              background-color: #f9f3ea;
+            }
+
+                body header .mini_menu .container .navigation.menu_close{
+                  display: none;
+                }
+
+                    body header .mini_menu .container.rollback{
+                      position: absolute;
+                      width: 100%;
+                      background-color: #f9f3ea;
+                      z-index: 99999;
+                      border: none;
+                    }
+
+                    body header .mini_menu .container .navigation ul{
+                      list-style: none;
+                      padding: 0;
+                      text-align: center;
+                      margin: 10px 0;
+                      padding: 0 100px;
+                    }
+
+                        body header .mini_menu .container .navigation ul li{
+                            text-decoration: none;
+                            display: block;
+                            color: #a82626;
+                            font-size: 25px;
+                            padding: 8px 0;
+                            font-family: 'PT Sans Narrow';
+                            border-top: 1px solid #eae4d9;
+                            cursor: pointer;
+                        }
+
+
+                            body header .mini_menu .container .navigation ul li:first-child{
+                                border: none;
+                            }
+
+                            body header .mini_menu .container .navigation ul li a{
+                              text-decoration: none;
+                              display: block;
+                              color: #a82626;
+                              font-size: 25px;
+                              padding: 8px 0;
+                              font-family: 'PT Sans Narrow';
+                            }
+
+                            body header .mini_menu .container .navigation ul li:first-child a{
+                              border: none;
+                            }
+
+            body header .container .col-xs-1{
+              text-align: center;
+            }
+
+                body header .container .col-xs-1 i{
+                  color: #dfd4c1;
+                  font-size: 30px;
+                  padding: 37px 0 48px 0;
+                }
+
+
+            body main .swiper-container .swiper-wrapper .slide{
+              background-size: cover;
+              height: 760px;
+              background-position: center;
+            }
+
+                body main .swiper-container .swiper-wrapper .slide .post_title{
+                  position: relative;
+                  top: 100px;
+                }
+
+                    body main .swiper-container .swiper-wrapper .slide .post_title h1{
+                      font-family: 'Yellowtail';
+                      font-size: 100px;
+                      color: #534741;
+                      font-weight: normal;
+                      margin: 0;
+                      padding: 0px 0 20px 0;
+                      line-height: 110px;
+                    }
+
+                body main .swiper-container .swiper-wrapper .slide .post_title a{
+                  font-family: 'PT Sans Narrow';
+                  font-weight: bold;
+                  font-size: 17px;
+                  color: white;
+                  padding: 10px 20px;
+                  background-color: #a82626;
+                  text-decoration: none;
+                  border-radius: 3px;
+                  display: inline-block;
+                }
+
+
+
+            body main .home_title{
+              max-width: 100%;
+              min-height: 155px;
+              background-color: #a82626;
+            }
+
+                body main .home_title .container .col-xs-12 h1{
+                  text-align: center;
+                  margin: 0;
+                  padding: 34px 0 45px 0;
+                  font-size: 60px;
+                  font-family: 'Yellowtail';
+                  font-weight: normal;
+                  color: #faf0d6;
+                }
+
+            body main section{
+              background-color: #fcf9f4;
+              padding-bottom: 20px;
+            }
+
+                body main section .container .section_title{
+                  text-align: center;
+                }
+
+                    body main section .container .section_title h1{
+                      font-family: 'Yellowtail';
+                      font-size: 60px;
+                      color: #534741;
+                      margin: 0;
+                      padding: 35px 0 19px 0;
+                    }
+
+                body main section .container .post{
+                  background-color: #f4efe6;
+                  border-bottom: 3px solid #e7dfd2;
+                  min-height: 460px;
+                  padding: 0;
+                  margin: 0 5px 10px 5px;
+                  width: calc(33.33333333% - 10px);
+                }
+
+                    body main section .container .post:hover{
+                      border-bottom: 3px solid #a82626;
+                      color: #a82626;
+                    }
+
+                    body main section .container .post article .picture{
+                      height: 230px;
+                    }
+
+                        body main section .container .post article .picture div{
+                          background-position: center;
+                          background-size: cover;
+                          height: 100%;
+                        }
+
+                    body main section .container .post article .message{
+                      padding: 24px 30px 24px 30px;
+                    }
+
+                        body main section .container .post article .message .date,
+                        body main section .container .post article .message .time{
+                          margin: 0 0 20px 0;
+                          padding: 0;
+                          text-align: left;
+                        }
+
+                        body main section .container .post article .message .time{
+                          border-left: 1px solid #dfd7c9;
+                          padding: 0 0 0 30px;
+                          margin: 0 0 20px 0;
+                        }
+
+                            body main section .container .post article .message .date small,
+                            body main section .container .post article .message .time small{
+                              color: #88786f;
+                              font-size: 15px;
+                            }
+
+                                body main section .container .post article .message .time small i,
+                                body main section .container .post article .message .date small i{
+                                  padding: 0 5px 0 0;
+                                  font-size: 15px;
+                                }
+
+                        body main section .container .post article .message a{
+                          text-decoration: none;
+                        }
+
+                            body main section .container .post article .message a h1{
+                              font-family: 'PT Sans Narrow';
+                              font-weight: normal;
+                              font-size: 28px;
+                              color: #584338;
+                              line-height: 28px;
+                              margin: 0;
+                            }
+
+                        body main section .container .post article .message p{
+                          color: #7f726b;
+                          font-family: 'PT Sans Narrow';
+                          font-size: 20px;
+                          line-height: 23px;
+                          padding: 17px 0 0 0;
+                        }
+
+                    body main section .container .all_posts_btn,
+                    body main section .container .all_events_btn{
+                      margin: 10px 0 30px 0;
+                      text-align: center;
+                    }
+
+                        body main section .container .all_posts_btn a,
+                        body main section .container .all_events_btn a{
+                          text-decoration: none;
+                          color: rgba(88, 67, 56, 0.75);
+                          margin: 0 0 0 0;
+                          font-family: 'PT Sans Narrow';
+                        }
+
+                            body main section .container .all_posts_btn a:hover,
+                            body main section .container .all_events_btn a:hover{
+                              color: rgba(88, 67, 56, 1);
+                            }
+
+                            body main section .container .all_posts_btn a h2,
+                            body main section .container .all_events_btn a h2{
+                              display: inline-block;
+                              font-size: 26px;
+                              line-height: 26px;
+                            }
+
+                    body main .news{
+                      background-color: #eee8df;
+                      min-height: 200px;
+                      font-family: 'PT Sans Narrow'
+                    }
+
+                        body main .news .swiper-container  .swiper-wrapper .swiper-slide .new{
+                          padding: 28px 0;
+                        }
+
+                            body main .news .swiper-container  .swiper-wrapper .swiper-slide .new h1{
+                              font-size: 36px;
+                              line-height: 26px;
+                              color: #a82626;
+                              font-weight: normal;
+                              text-align: center;
+                              padding: 15px 0 15px 0;
+                              margin: 0;
+                            }
+
+                            body main .news .swiper-container  .swiper-wrapper .swiper-slide .new .message{
+                              text-align: center;
+                              padding: 0 80px;
+                            }
+
+                                body main .news .swiper-container  .swiper-wrapper .swiper-slide .new .message p{
+                                  font-size: 28px;
+                                  line-height: 30px;
+                                  color: #88786f;
+                                  font-weight: normal;
+                                }
+
+                                body main .news .swiper-container  .swiper-wrapper .swiper-slide .new .message small{
+                                  color: #c6baa9;
+                                  font-size: 18px;
+                                  line-height: 27px;
+                                  font-weight: normal;
+                                  padding: 15px 0 0 0;
+                                }
+
+
+                    body main .events .container .event{
+                      background-color: #eee8df;
+                      height: 170px;
+                      width: calc(50% - 10px);
+                      margin: 0 5px 30px 5px;
+                      padding: 0;
+                      border-bottom: 3px solid #e7dfd2;
+                    }
+
+                        body main .events .container .event:hover{
+                          border-bottom: 3px solid #a82626;
+                        }
+
+                        body main .events .container .event .picture{
+                          height: 100%;
+                          padding: 0;
+                          margin: 0;
+                        }
+
+                        body main .events .container .event .picture{
+                          max-width: 100%;
+                        }
+
+                            body main .events .container .event .picture div{
+                              height: 100%;
+                              background-size: cover;
+                              background-position: center;
+                            }
+
+                        body main .events .container .event .message{
+                          padding: 20px 25px 20px 25px;
+                          height: 100%;
+                        }
+
+                            body main .events .container .event .message a{
+                              text-decoration: none;
+                            }
+
+                                body main .events .container .event .message a h1{
+                                  font-family: 'PT Sans Narrow';
+                                  font-weight: normal;
+                                  font-size: 29px;
+                                  line-height: 23px;
+                                  color: #584338;
+                                  line-height: 28px;
+                                  margin: 0;
+                                }
+
+                            body main .events .container .event  .message p{
+                              color: #7f726b;
+                              font-family: 'PT Sans Narrow';
+                              line-height: 19px;
+                              font-size: 18px;
+                              padding: 17px 0 0 0;
+                            }
+
+                            body main .events .container .event  .message .date{
+                              padding: 0 0 20px 0;
+                            }
+
+                                body main .events .container .event  .message .date small{
+                                  color: #a82626;
+                                }
+
+                                    body main .events .container .event  .message .date small i{
+                                      padding: 0 10px 0 0;
+                                      font-size: 15px;
+                                    }
+
+                      body main .reflections{
+                        min-height: 280px;
+                        background-color: #a82626;
+                      }
+
+                          body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection{
+                            padding: 22px 0;
+                          }
+
+                              body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection h1{
+                                font-size: 47px;
+                                font-family: 'Yellowtail';
+                                text-align: center;
+                                margin: 0;
+                                padding: 30px 0 32px 0;
+                                color: #f4efe6;
+                              }
+
+                              body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection .message{
+                                padding: 0 80px;
+                                margin: 0 0 30px 0;
+                              }
+
+                                  body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection .message p{
+                                    font-family: 'PT Sans Narrow';
+                                    font-size: 27px;
+                                    line-height: 28px;
+                                    color: #d7cbb5;
+                                    text-align: center;
+                                  }
+
+                                  body main .reflections .swiper-container .swiper-wrapper .swiper-slide .reflection .message small{
+                                    font-family: 'PT Sans Narrow';
+                                    font-size: 19px;
+                                    line-height: 28px;
+                                    text-align: left;
+                                    text-decoration: underline;
+                                    color: #e5ddce;
+                                    padding: 22px 0 0 45px;
+                                    display: inline-block;
+                                    width: 70%;
+                                  }
+
+        body footer .pre_footer{
+          min-height: 380px;
+          background-color: #3c3a3a;
+        }
+
+            body footer .pre_footer div{
+              padding: 5px 0;
+            }
+
+                body footer .pre_footer div .contact,
+                body footer .pre_footer div .links,
+                body footer .pre_footer div .kbs{
+                  padding: 0 20px 0 20px;
+                  margin: 42px 0 41px 0;
+                }
+
+                    body footer .pre_footer div .contact a{
+                      display: block;
+                      font-family: 'PT Sans Narrow';
+                      font-size: 18px;
+                      line-height: 20px;
+                      font-weight: normal;
+                      color: #727170;
+                      text-decoration: none;
+                      padding: 0 14px 8px 14px;
+                    }
+
+                        body footer .pre_footer div .contact a:hover{
+                          color: #bbb19f;
+                          text-decoration: underline;
+                        }
+
+                    body footer .pre_footer div .links a{
+                      border: 1px solid #727170;
+                      border-radius: 3px;
+                      display: inline-block;
+                      color: #727170;
+                      font-size: 18px;
+                      font-family: 'PT Sans Narrow';
+                      line-height: 20px;
+                      font-weight: normal;
+                      padding: 3px 8px 3px 8px;
+                      margin: 0 0 12px 0;
+                      text-decoration: none;
+                      white-space: nowrap;
+                    }
+
+                        body footer .pre_footer div .links a:hover{
+                          border: 1px solid #bbb19f;
+                          color: #bbb19f;
+                        }
+
+
+                    body footer .pre_footer div .kbs h4{
+                      color: #848483;
+                      font-family: 'PT Sans Narrow';
+                      font-size: 18px;
+                      line-height: 23px;
+                    }
+
+                    body footer .pre_footer div .kbs p{
+                      border-bottom: 2px solid #848483;
+                      margin: 10px 0 0 0;
+                      padding: 0 14px 8px 14px;
+                      width: 85%;
+                      color: #6e6763;
+                    }
+
+                        body footer .pre_footer div .kbs p:hover{
+                          color: #bbb19f;
+                        }
+
+                        body footer .pre_footer div .kbs p:last-child{
+                          border: none;
+                        }
+
+                    body footer .pre_footer div .links h3,
+                    body footer .pre_footer div .contact h3,
+                    body footer .pre_footer div .kbs h3{
+                      color: #c3b8a5;
+                      font-family: 'Yellowtail';
+                      font-size: 37px;
+                      margin: 0;
+                      padding: 0 0 20px 0;
+                      font-weight: normal;
+                    }
+
+        body footer .main_footer{
+          height: 85px;
+          background-color: #f8f0e5;
+          border-bottom: 4px solid #534741;
+          padding: 30px 0 30px 0;
+        }
+
+            body footer .main_footer .created_by{
+              padding: 0 0 28px 0;
+              border-bottom: 4px solid #a82626;
+            }
+
+                body footer .main_footer .created_by span{
+                  color: #7f726b;
+                  font-family: 'PT Sans Narrow';
+                  font-size: 18px;
+                  line-height: 23px;
+                  padding: 0 20px 0 20px;
+                  border-left: 2px solid #7f726b;
+                }
+
+                    body footer .main_footer .created_by span:first-child{
+                      color: #a82626;
+                      border: none;
+                      padding: 0 20px 0 30px;
+                    }
+
+/*---------------- ONE POST ---------------------*/
+        body main .title{
+          background-color: #a82626;
+          font-family: 'PT Sans Narrow';
+          min-height: 160px;
+          border-bottom: 2px solid #8e1919;
+        }
+
+            body main .title .container{
+              padding: 0 85px;
+            }
+
+                body main .title .container .topic{
+                  padding: 40px 0 82px 20px;
+                }
+
+                    body main .title .container .topic h1{
+                      color: #f4efe6;
+                      margin: 0;
+                    }
+
+                body main .title .container .psalm{
+                  padding: 25px 0 72px 0;
+                  font-size: 17px;
+                  line-height: 20px;
+                  text-align: right;
+                }
+
+                    body main .title .container .psalm p{
+                      color: #d8cdc1;
+                      font-weight: normal;
+
+                    }
+
+                    body main .title .container .psalm small{
+                      color: #fcf8f3;
+                      font-weight: bold;
+                    }
+
+
+        body main .one_event,
+        body main .one_post,
+        body main .all_posts,
+        body main .all_events,
+        body main .parish_office,
+        body main .contact_form,
+        body main .phone_book,
+        body main .communities,
+        body main .informations,
+        body main .parish_history,
+        body main .mass_rules,
+        body main .calendar,
+        body main .one_community,
+        body main .parish_notices{
+          background-color: #fcf9f4;
+        }
+
+            body main .one_post .container,
+            body main .all_posts .container,
+            body main .all_events .container,
+            body main .one_event .container,
+            body main .parish_office .container,
+            body main .contact_form .container,
+            body main .phone_book .container,
+            body main .communities .container,
+            body main .informations .container,
+            body main .parish_history .container,
+            body main .mass_rules .container,
+            body main .calendar .container,
+            body main .one_community .container,
+            body main .parish_notices .container{
+              margin-bottom: 60px;
+              margin-top: -50px;
+              padding: 70px;
+              background-color: #f4efe6;
+              border-bottom: 3px solid #e7dfd2;
+            }
+
+                body main .one_post .container .post_header h1,
+                body main .one_event .container .event_header h1{
+                  font-family: 'PT Sans Narrow';
+                  font-weight: normal;
+                  font-size: 43px;
+                  line-height: 43px;
+                  color: #584338;
+                  margin: 0;
+                  padding: 0 0 15px 0;
+                }
+
+                body main .one_post .container .post_header .picture,
+                body main .one_event .container .event_header .picture{
+                  max-height: 500px;
+                  width: 100%;
+                  margin: 0 0 60px 0;
+                  padding: 0;
+                  text-align: center;
+                }
+
+                    body main .one_post .container .post_header .picture img,
+                    body main .one_event .container .event_header .picture img{
+                      background-repeat: no-repeat;
+                      max-width: 100%;
+                      max-height: 500px;
+                      background-size: cover;
+                      background-position: center;
+                    }
+
+                body main .one_post .container .info,
+                body main .all_posts .container .posts .post .text .info,
+                body main .all_events .container .events .event .text .info,
+                body main .one_event .container .info{
+                  padding: 0 0 20px 0;
+                }
+
+                    body main .one_post .container .info small,
+                    body main .all_posts .container .posts .post .text .info small,
+                    body main .all_events .container .events .event .text small{
+                      padding: 0 20px;
+                      border-left: 1px solid #dfd7c9;
+                      font-family: 'PT Sans Narrow';
+                      font-size: 15px;
+                      font-weight: normal;
+                      line-height: 34px;
+                      color: #88786f;
+                      white-space: nowrap;
+                      text-decoration: none;
+                    }
+
+                        body main .one_post .container .info small:first-child,
+                        body main .all_posts .container .posts .post .text .info small:first-child,
+                        body main .all_events .container .events .event .text small:first-child,
+                        body main .one_event .container .info small:first-child{
+                          border: none;
+                        }
+
+                        body main .one_post .container .info small:hover,
+                        body main .all_posts .container .posts .post .text small:hover,
+                        body main .all_events .container .events .event .text small:hover,
+                        body main .one_event .container .info small{
+                          color: #a82626;
+                        }
+
+                        body main .one_post .container .info small i,
+                        body main .all_posts .container .posts .post .text small i,
+                        body main .all_events .container .events .event .text small i,
+                        body main .one_event .container .info small i{
+                          padding: 0 8px 0 0;
+                          font-size: 20px;
+                          vertical-align: middle;
+                        }
+
+                body main .one_post .container .post_text,
+                body main .one_event .container .event_text{
+                  font-family: 'PT Sans Narrow';
+                  font-weight: normal;
+                  padding-bottom: 20px;
+                }
+
+                    body main .one_post .container .post_text p,
+                    body main .one_event .container .event_text p{
+                      color: #7f726b;
+                      font-size: 18px;
+                      line-height: 22px;
+                      padding: 0 0 20px 0;
+                    }
+
+                    body main .one_post .container .post_text blockquote,
+                    body main .one_event .container .event_text blockquote{
+                      color: #a82626;
+                      font-size: 24px;
+                      line-height: 27px;
+                      border-left: 3px solid #a82626;
+                      padding: 0 0 0 30px;
+                      margin: 30px 0 30px 60px;
+                    }
+
+                body main .one_post .container .popular_posts h1,
+                body main .all_posts .container .popular_posts h1,
+                body main .all_events .container .popular_posts h1,
+                body main .one_event .container .popular_posts h1,
+                body main .one_community .container .popular_posts h1,
+                body main .one_event .container .recent_news h1,
+                body main .phone_book .container .recent_news h1,
+                body main .parish_notices .container .popular_posts h1,
+                body main .calendar .container .popular_posts h1{
+                  color: #6c594e;
+                  font-size: 37px;
+                  font-family: 'Yellowtail';
+                  font-weight: normal;
+                  line-height: 37px;
+                  margin: 0 0 30px 0;
+                }
+
+                    body main .one_post .container .popular_posts .post,
+                    body main .all_posts .container .popular_posts .post,
+                    body main .all_events .container .popular_posts .post,
+                    body main .one_event .container .popular_posts .post,
+                    body main .one_community .container .popular_posts .post,
+                    body main .parish_notices .container .popular_posts .post,
+                    body main .calendar .container .popular_posts .post{
+                      font-family: 'PT Sans Narrow';
+                      font-weight: normal;
+                      border-bottom: 1px solid #eae4d9;
+                      padding: 20px 0;
+                      margin: 0;
+                    }
+
+                        body main .one_post .container .popular_posts .post:first-of-type,
+                        body main .all_posts .container .popular_posts .post:first-of-type,
+                        body main .all_events .container .popular_posts .post:first-of-type,
+                        body main .one_event .container .popular_posts .post:first-of-type,
+                        body main .one_community .container .popular_posts .post:first-of-type,
+                        body main .parish_notices .container .popular_posts .post:first-of-type,
+                        body main .calendar .container .popular_posts .post:first-of-type{
+                          padding: 0 0 20px 0;
+                        }
+
+                        body main .one_post .container .popular_posts .post:last-of-type,
+                        body main .all_posts .container .popular_posts .post:last-of-type,
+                        body main .all_events .container .popular_posts .post:last-of-type,
+                        body main .one_event .container .popular_posts .post:last-of-type,
+                        body main .one_community .container .popular_posts .post:last-of-type,
+                        body main .parish_notices .container .popular_posts .post:last-of-type,
+                        body main .calendar .container .popular_posts .post:last-of-type{
+                          border: none;
+                          padding: 20px 0 40px 0;
+                        }
+
+                        body main .one_post .container .popular_posts > a,
+                        body main .all_posts .container .popular_posts > a,
+                        body main .all_events .container .popular_posts > a,
+                        body main .one_event .container .popular_posts > a,
+                        body main .one_community .container .popular_posts > a,
+                        body main .parish_notices .container .popular_posts > a,
+                        body main .calendar .container .popular_posts > a{
+                          text-align: center;
+                          text-decoration: none;
+                          display: inline-block;
+                          text-transform: uppercase;
+                          background-color: #a82626;
+                          color: white;
+                          border-radius: 4px;
+                          padding: 10px 14px;
+                          font-size: 17px;
+                          font-weight: bold;
+                          line-height: 29px;
+                        }
+
+                        body main .one_post .container .popular_posts .post p a,
+                        body main .all_posts .container .popular_posts .post p a,
+                        body main .all_events .container .popular_posts .post p a,
+                        body main .one_event .container .popular_posts .post p a,
+                        body main .one_community .container .popular_posts .post p a,
+                        body main .parish_notices .container .popular_posts .post p a,
+                        body main .calendar .container .popular_posts .post p a{
+                          color: #7f726b;
+                          font-size: 18px;
+                          line-height: 20px;
+                          text-decoration: none;
+                          display: block;
+                        }
+
+                            body main .one_post .container .popular_posts .post p a:hover,
+                            body main .all_posts .container .popular_posts .post p a:hover,
+                            body main .all_events .container .popular_posts .post p a:hover,
+                            body main .one_event .container .popular_posts .post p a:hover,
+                            body main .one_community .container .popular_posts .post p a:hover,
+                            body main .parish_notices .container .popular_posts .post p a:hover,
+                            body main .calendar .container .popular_posts .post p a:hover{
+                              color: #a82626;
+                            }
+
+                        body main .one_post .container .popular_posts  .post small a,
+                        body main .all_posts .container .popular_posts .post small a,
+                        body main .all_events .container .popular_posts .post small a,
+                        body main .one_event .container .popular_posts .post small a,
+                        body main .one_community .container .popular_posts .post small a,
+                        body main .parish_notices .container .popular_posts .post small a,
+                        body main .calendar .container .popular_posts .post small a{
+                          color: #a82626;
+                          font-size: 15px;
+                          line-height: 19px;
+                        }
+
+                            body main .one_post .container .popular_posts .post small a:hover,
+                            body main .all_posts .container .popular_posts .post small a:hover,
+                            body main .all_events .container .popular_posts .post small a:hover,
+                            body main .one_event .container .popular_posts .post small a:hover,
+                            body main .one_community .container .popular_posts .post small a:hover,
+                            body main .parish_notices .container .popular_posts .post small a:hover,
+                            body main .calendar .container .popular_posts .post small a:hover{
+                              color: #7f726b;
+                              text-decoration: none;
+                            }
+
+                body main .one_post .container .comments{
+                  padding-bottom: 20px;
+                }
+
+                    body main .one_post .container .comments h1{
+                      text-align: center;
+                      font-family: 'Yellowtail';
+                      font-size: 47px;
+                      color: #534741;
+                    }
+
+                    body main .one_post .container .comments .comment .picture{
+                      margin: 25px 0 0 0;
+                      padding: 0;
+                      text-align: center;
+                    }
+
+                        body main .one_post .container .comments .comment .picture a img{
+                          height: 100%;
+                          background-size: cover;
+                        }
+
+                        body main .one_post .container .comments .comment .message{
+                          padding-top: 25px;
+                        }
+
+                            body main .one_post .container .comments .comment .message .text a{
+                              text-decoration: none;
+                            }
+
+                                body main .one_post .container .comments .comment .message .text a h3{
+                                  font-family: 'PT Sans Narrow';
+                                  font-size: 28px;
+                                  line-height: 28px;
+                                  font-weight: normal;
+                                  color: #534741;
+                                }
+
+                                body main .one_post .container .comments .comment .message .text small{
+                                  color: #a82626;
+                                  font-family: 'PT Sans Narrow';
+                                  font-size: 15px;
+                                  line-height: 34px;
+                                  font-weight: normal;
+                                }
+
+                                body main .one_post .container .comments .comment .message .text p{
+                                  color: #7f726b;
+                                  font-family: 'PT Sans Narrow';
+                                  font-size: 18px;
+                                  font-weight: normal;
+                                  line-height: 22px;
+                                }
+
+                                body main .one_post .container .comments .comment .message .reply{
+                                  padding: 25px 0 0 0;
+                                  position: absolute;
+                                  right: 0;
+                                  top: 0;
+                                }
+
+                                    body main .one_post .container .comments .comment .message .reply a{
+                                      border: 1px solid #e7dfd2;
+                                      border-radius: 3px;
+                                      font-family: 'PT Sans Narrow';
+                                      font-size: 17px;
+                                      font-weight: bold;
+                                      line-height: 22px;
+                                      padding: 7px 12px;
+                                      color: #cdc6ba;
+                                      text-decoration: none;
+                                    }
+
+                                      body main .one_post .container .comments .comment .message .reply a:hover{
+                                        background-color: #a82626;
+                                        border: 1px solid #a82626;
+                                        border-radius: 3px;
+                                        color: white;
+                                      }
+
+/*-------------------ALL POSTS---------------------------*/
+        body main .all_posts .container .posts .post,
+        body main .all_events .container .events .event{
+          padding: 0;
+          background-color: #f9f5ee;
+          border-bottom: 2px solid #e7dfd2;
+          margin: 0 0 55px 0;
+        }
+
+            body main .all_posts .container .posts .post:hover,
+            body main .all_events .container .events .event:hover{
+              border-bottom: 2px solid #a82626;
+            }
+
+            body main .all_posts .container .posts .post a,
+            body main .all_events .container .events .event a{
+              text-decoration: none;
+            }
+
+            body main .all_posts .container .posts .post .picture{
+              height: 370px;
+            }
+
+                body main .all_posts .container .posts .post .picture div,
+                body main .all_events .container .events .event .picture div{
+                  height: 100%;
+                  background-size: cover;
+                  background-position: center;
+                }
+
+            body main .all_posts .container .posts .post .text,
+            body main .all_events .container .events .event .text{
+              padding: 30px 30px;
+            }
+
+                body main .all_posts .container .posts .post .text h1,
+                body main .all_events .container .events .event .text h1{
+                  font-family: 'PT Sans Narrow';
+                  font-size: 28px;
+                  line-height: 28px;
+                  font-weight: normal;
+                }
+
+                    body main .all_posts .container .posts .post .text h1 a,
+                    body main .all_events .container .events .event .text h1 a{
+                      text-decoration: none;
+                      color: #584338;
+                    }
+
+                body main .all_posts .container .posts .post .text p,
+                body main .all_events .container .events .event .text p{
+                  color: #7f726b;
+                  font-family: 'PT Sans Narrow';
+                  font-weight: normal;
+                  font-size: 20px;
+                  line-height: 23px;
+                }
+
+        body main .all_posts .container .categories{
+          margin: 0 0 70px 0;
+        }
+
+            body main .all_posts .container .categories h1{
+              color: #6c594e;
+              font-family: 'Yellowtail';
+              font-size: 37px;
+              font-weight: normal;
+              margin: 0 0 35px 0;
+            }
+
+            body main .all_posts .container .categories .category{
+              border-bottom: 1px solid #eae4d9;
+              padding: 6px 0 6px 0;
+              min-height: 35px;
+
+            }
+
+                body main .all_posts .container .categories .category:last-child{
+                  border: none;
+                }
+
+                body main .all_posts .container .categories .category div a{
+                  font-family: 'PT Sans Narrow';
+                  font-size: 18px;
+                  line-height: 20px;
+                  color: #7f726b;
+                  text-decoration: none;
+                }
+
+                    body main .all_posts .container .categories .category:hover div a{
+                      color: #a82626;
+                    }
+
+                body main .all_posts .container .categories .category div{
+                  display: inline;
+                  padding: 0;
+                }
+
+                    body main .all_posts .container .categories .category div:first-of-type{
+                      text-align: left;
+                    }
+
+                    body main .all_posts .container .categories .category div:last-of-type{
+                      float: right;
+                    }
+
+        body main .all_posts .container .popular_posts,
+        body main .all_events .container .popular_posts{
+          margin: 0 0 70px 0;
+        }
+
+/*-----------------ALL EVENTS---------------------*/
+    body main .all_events .container .events .event .text .info{
+      padding: 0 0 10px 0;
+    }
+
+    body main .all_events .container .events .event .text h1{
+      margin: 0 0 8px 0;
+    }
+
+    body main .all_events .container .events .event .picture{
+      padding: 0;
+      height: 230px;
+    }
+
+    body main .all_events .container .events .event .picture div{
+      width: 100%;
+    }
+
+    body main .one_event .container .info small{
+      font-family: 'PT Sans Narrow';
+      font-size: 15px;
+      line-height: 34px;
+      background-color: #eae4dc;
+      padding: 5px 20px;
+      border-radius: 5px;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+/*------------------ONE EVENT--------------------------------*/
+    body main .one_event .container{
+        margin-bottom: 15px;
+    }
+
+    body main .one_event .container .recent_news{
+      margin-top: -60px;
+    }
+
+        body main .one_event .container .recent_news .new,
+        body main .phone_book .container .recent_news .new{
+          border-bottom: 1px solid #eae4d9;
+          padding: 10px 0 10px 0;
+        }
+
+            body main .one_event .container .recent_news .new:last-child,
+            body main .phone_book .container .recent_news .new:last-child{
+              border: none;
+            }
+
+                body main .one_event .container .recent_news .new small,
+                body main .phone_book .container .recent_news .new small{
+                  font-family: 'PT Sans Narrow';
+                  font-size: 15px;
+                  color: #a82626;
+                  line-height: 34px;
+                  display: inline-block;
+                  margin: 0 0 5px 0;
+                }
+
+                    body main .one_event .container .recent_news .new small i,
+                    body main .phone_book .container .recent_news .new small i{
+                      padding: 0 8px 0 0;
+                    }
+
+                body main .one_event .container .recent_news .new h2,
+                body main .phone_book .container .recent_news .new h2{
+                  font-family: 'PT Sans Narrow';
+                  font-size: 23px;
+                  font-weight: normal;
+                  color: #584338;
+                  line-height: 23px;
+                }
+
+                    body main .one_event .container .recent_news .new:hover h2,
+                    body main .one_event .container .recent_news .new:hover small,
+                    body main .phone_book .container .recent_news .new:hover h2,
+                    body main .phone_book .container .recent_news .new:hover small{
+                      color: #a82626;
+                    }
+
+                body main .one_event .container .recent_news .new p,
+                body main .phone_book .container .recent_news .new p{
+                  font-family: 'PT Sans Narrow';
+                  font-size: 18px;
+                  line-height: 19px;
+                  color: #7f726b;
+                  padding: 10px 0;
+                }
+
+/*---------------------PARISH OFFICE---------------------------*/
+
+          body main .parish_office .container .map{
+            height: 560px;
+            max-width: 100%;
+            background-position: center;
+            background-size: cover;
+            margin: 0 0 50px 0;
+          }
+
+          body main .parish_office .container .info,
+          body main .parish_office .container .personals{
+            font-family: 'PT Sans Narrow';
+            margin: 0 0 40px 0;
+          }
+
+              body main .parish_office .container .personals strong{
+                font-size: 17px;
+              }
+
+              body main .parish_office .container .personals .parish_administrator div,
+              body main .parish_office .container .personals .priests div,
+              body main .parish_office .container .personals .another div{
+                padding: 0;
+              }
+
+              body main .parish_office .container .info p,
+              body main .parish_office .container .personals p{
+                font-size: 16px;
+                line-height: 22px;
+                color: #7f726b;
+              }
+
+              body main .parish_office .container .info h3,
+              body main .parish_office .container .personals h3{
+                color: #584338;
+                font-size: 22px;
+                line-height: 34px;
+              }
+
+              body main .parish_office .container .info .phone_number p a,
+              body main .parish_office .container .personals p a{
+                text-decoration: underline;
+                color: #7f726b;
+              }
+
+                  body main .parish_office .container .info .phone_number p a:hover,
+                  body main .parish_office .container .personals p a:hover{
+                    color: #a82626;
+                  }
+
+
+/*------------------CONTACT FORM--------------------------*/
+    body main .contact_form .container div form textarea{
+      padding: 6px 15px;
+      background-color: #fcf9f4;
+      font-size: 18px;
+      font-family: 'PT Sans Narrow';
+      color: #7f726b;
+      line-height: 22px;
+      border: 1px solid #e7dfd2;
+      margin: 0 0 20px 0;
+      width: 100%;
+      height: 160px;
+    }
+
+    body main .contact_form .container div form button{
+      font-family: 'Raleway';
+      background-color: #a82626;
+      border: none;
+      color: #f4efe6;
+      font-weight: bold;
+      padding: 10px 20px;
+    }
+
+    body main .contact_form .container div form input{
+      width: 49%;
+      margin: 0 0 30px 1%;
+      padding: 6px 15px;
+      float: left;
+      background-color: #fcf9f4;
+      font-size: 18px;
+      font-family: 'PT Sans Narrow';
+      color: #7f726b;
+      line-height: 22px;
+      border: 1px solid #e7dfd2;
+    }
+
+        body main .contact_form .container div form input:first-child{
+          margin: 0 1% 10px 0;
+        }
+
+        body main .contact_form .container div form textarea:focus,
+        body main .contact_form .container div form input:focus{
+          outline: 2px solid #a82626;
+          color: #a82626;
+        }
+
+/*------------------PHONE BOOK--------------------------*/
+    body main .phone_book .container .number_table table,
+    body main .communities .container table,
+    body main .parish_history .container .priests_list table,
+    body main .mass_rules .container table,
+    body main .parish_notices .container table{
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+
+
+        body main .phone_book .container .number_table table tbody tr:nth-child(even),
+        body main .communities .container table tbody tr:nth-child(even),
+        body main .parish_history .container .priests_list table tbody tr:nth-child(even){
+            background-color: #e7dfd2;
+        }
+
+            body main .phone_book .container .number_table table tbody tr td,
+            body main .communities .container table tbody tr td,
+            body main .parish_history .container .priests_list table tbody tr td,
+            body main .mass_rules .container table tbody tr td,
+            body main .parish_notices .container table tbody tr td{
+                border: 1px solid #a09e99;
+                font-family: 'PT Sans Narrow';
+                font-weight: normal;
+                font-size: 16px;
+                color: #584338;
+                padding: 6px 8px;
+                text-decoration: none;
+                text-align: center;
+            }
+
+                body main .phone_book .container .number_table table tbody tr td:first-child,
+                body main .communities .container table tbody tr td:first-child{
+                    font-weight: bold;
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+                body main .phone_book .container .number_table table tbody tr td a,
+                body main .communities .container table tbody tr td a{
+                    font-family: 'PT Sans Narrow';
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #6e6763;
+                    display: block;
+                }
+
+                    body main .phone_book .container .number_table table tbody tr td a:hover,
+                    body main .communities .container table tbody tr td a:hover{
+                        color: #a82626;
+                    }
+
+            body main .communities .container table thead tr td,
+            body main .parish_notices .container table thead tr td{
+                border: 1px solid #a82626;
+                font-family: 'PT Sans Narrow';
+                font-weight: bold;
+                font-size: 18px;
+                color: #a82626;
+                padding: 6px 15px;
+                text-align: center;
+            }
+
+                body main .communities .container table thead tr:first-child td:nth-of-type(1){
+                    width: 18%;
+                }
+
+                body main .communities .container table thead tr:first-child td:nth-of-type(2){
+                    width: 25%;
+                }
+
+                body main .communities .container table thead tr:first-child td:nth-of-type(3){
+                    width: 14%;
+                }
+
+                body main .communities .container table thead tr:first-child td:nth-of-type(4){
+                    width: 22%;
+                }
+
+                body main .communities .container table thead tr:first-child td:nth-of-type(5){
+                    width: 21%;
+                }
+
+            body main .phone_book .container .number_table table thead tr td,
+            body main .parish_history .container .priests_list table thead tr td,
+            body main .mass_rules .container table thead tr td{
+                padding: 6px 60px;
+                border: 1px solid #a82626;
+                font-family: 'PT Sans Narrow';
+                font-weight: bold;
+                font-size: 18px;
+                color: #a82626;
+                text-align: center;
+            }
+
+
+/*------------------INFORMATIONS--------------------------*/
+
+    body main .informations .container h1,
+    body main .parish_history .container h1,
+    body main .calendar .container h1,
+    body main .one_community .container .text h1,
+    body main .parish_notices .container h1,
+    body main .parish_notices .container .text h1{
+        font-size: 43px;
+        font-family: 'PT Sans Narrow';
+        line-height: 43px;
+        color: #584338;
+        text-align: center;
+        font-weight: normal;
+        margin-top: 0;
+    }
+
+        body main .informations .container .symbol,
+        body main .informations .container .church,
+        body main .informations .container .statistics,
+        body main .informations .container .personals,
+        body main .informations .container .parishes{
+            margin-bottom: 20px;
+        }
+
+            body main .informations .container .symbol h2,
+            body main .informations .container .church h2,
+            body main .informations .container .statistics h2,
+            body main .informations .container .personals h2,
+            body main .informations .container .parishes h2,
+            body main .parish_history .container h2,
+            body main .calendar .container h2,
+            body main .one_community .container .text h2{
+                font-size: 35px;
+                line-height: 35px;
+                font-family: 'PT Sans Narrow';
+                color: #584338;
+                font-weight: normal;
+                margin: 20px 0 5px 0;
+            }
+
+            body main .informations .container .symbol p,
+            body main .informations .container .church p,
+            body main .informations .container .statistics p,
+            body main .informations .container .personals p,
+            body main .parish_history .container .text p,
+            body main .informations .container .personals p a,
+            body main .mass_rules .container p,
+            body main .mass_rules .container p a,
+            body main .one_community .container .text p,
+            body main .one_community .container .text p a
+            {
+                font-family: 'PT Sans Narrow';
+                font-size: 20px;
+                line-height: 26px;
+                font-weight: normal;
+                color: #7f726b;
+                margin: 3px 0;
+            }
+
+                body main .informations .container .personals p a:hover,
+                body main .mass_rules .container p a:hover{
+                    color: #a82626;
+                }
+
+            body main .informations .container .symbol .picture{
+                text-align: center;
+            }
+
+            body main .informations .container .statistics table{
+                border-collapse: collapse;
+                margin-left: 60px;
+                margin-top: -26px;
+            }
+
+                body main .informations .container .statistics table tr td{
+                    padding: 3px 12px;
+                    font-family: 'PT Sans Narrow';
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #584338;
+                }
+
+            body main .informations .container .parishes h2{
+                font-size: 35px;
+                line-height: 35px;
+                font-family: 'PT Sans Narrow';
+                color: #584338;
+                font-weight: normal;
+                margin: 8px 0;
+                text-align: center;
+            }
+
+            body main .informations .container .parishes .parish{
+                height: auto;
+                background-color: #f9f5ee;
+                border-bottom: 2px solid #e7dfd2;
+                padding: 8px;
+                width: calc(50% - 10px);
+                margin: 5px;
+            }
+
+
+                body main .informations .container .parishes .parish:hover{
+                    border-bottom: 2px solid #a82626;
+                }
+
+                body main .informations .container .parishes .parish:first-of-type{
+                    width: calc(100% - 10px);
+                }
+
+                body main .informations .container .parishes .parish h2{
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+
+                    body main .informations .container .parishes .parish div .picture{
+                        height: 250px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                        body main .informations .container .parishes .parish:first-of-type div .picture{
+                            background-position: 60% 15%;
+                            height: 280px;
+                        }
+
+                    body main .informations .container .parishes .parish div .info{
+                        padding: 8px 15px;
+                    }
+
+                        body main .informations .container .parishes .parish:first-of-type div .info{
+                            padding: 15px;
+                        }
+
+                        body main .informations .container .parishes .parish div .info p,
+                        body main .informations .container .parishes .parish div .info p a{
+                            font-family: 'PT Sans Narrow';
+                            font-size: 17px;
+                            line-height: 21px;
+                            font-weight: normal;
+                            color: #7f726b;
+                        }
+
+                            body main .informations .container .parishes .parish div .info p a:hover{
+                                color: #a82626;
+                            }
+
+/*----------------------PARISH HISTORY-------------------------*/
+    body main .parish_history .container .priests_list table{
+        border-collapse: collapse;
+        margin: 0;
+    }
+
+    body main .parish_history .container .priests_list{
+        margin: 35px auto;
+    }
+
+        body main .parish_history .container .priests_list table tbody tr td{
+            text-align: center;
+        }
+
+/*-----------------------MASS RULES------------------------------*/
+    body main .mass_rules .container table{
+        margin: 20px auto;
+    }
+
+        body main .mass_rules .container table tbody tr td{
+            padding: 4px 20px;
+            font-size: 25px;
+        }
+
+    body main .mass_rules .container table thead tr td{
+        font-size: 25px;
+    }
+
+/*-----------------------CALENDAR------------------------------*/
+    body main .calendar .container div .calendar_widget{
+        width: 50%;
+        background-color: #584338;
+        margin: 0 auto;
+        height: 600px;
+    }
+
+/*-----------------------COMMUNITIES------------------------------*/
+    body main .communities .menu ul{
+        padding: 0;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto 35px auto;
+    }
+
+        body main .communities .menu ul li{
+            display: inline;
+            padding: 8px 0;
+            line-height: 38px;
+            white-space: nowrap;
+        }
+
+            body main .communities .menu ul li a{
+                color: #6e6763;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 5px 15px;
+                font-family: "PT Sans Narrow";
+                font-weight: normal;
+            }
+
+                body main .communities .menu ul li a:hover{
+                    background-color: #a82626;
+                    color: white;
+                }
+
+/*-------------------PARISH_NOTICES---------------------------*/
+    body main .parish_notices .container .parish_notice div .text{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+        body main .parish_notices .container .parish_notice div .text h1{
+            margin-top: 45px;
+        }
+
+    body main .parish_notices .container .parish_notice div .text p{
+        font-family: 'PT Sans Narrow';
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: normal;
+        color: #7f726b;
+        margin: 3px 0;
+    }
+
+        body main .parish_notices .container .parish_notice div .text p::before{
+            content: '○';
+            color: #a82626;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+
+    body main .parish_notices .container table{
+        width: 100%;
+    }
+
+        body main .parish_notices .container table thead tr td:nth-of-type(1){
+            width: 15%;
+        }
+
+        body main .parish_notices .container table thead tr td:nth-of-type(2){
+            width: 25%;
+        }
+
+        body main .parish_notices .container table thead tr td:nth-of-type(3){
+            width: 15%;
+        }
+
+        body main .parish_notices .container table thead tr td:nth-of-type(4){
+            width: 45%;
+        }
+
+
+/*-------------------SLIDER-----------------------*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: inherit;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+/*---------------BURGER------------------- */
+.burger {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  margin: 34px auto 35px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.burger span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #a82626;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.burger span:nth-child(1) {
+  top: 0px;
+}
+
+.burger span:nth-child(2) {
+  top: 18px;
+}
+
+.burger span:nth-child(3) {
+  top: 36px;
+}
+
+.burger.open span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.burger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.burger.open span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
